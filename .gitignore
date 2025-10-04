@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Data (too large for GitHub)
+data/
+
+# Outputs
+outputs/*.png
+outputs/*.ply
+outputs/*.jpg
+
+# Models (downloaded automatically)
+*.pt
+*.pth
+
+# Temporary
+*.tmp
+*.log
